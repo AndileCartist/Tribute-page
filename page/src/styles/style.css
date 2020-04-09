@@ -1,0 +1,85 @@
+/* Add your styles here */
+body {
+    border: 0; 
+}
+h1 {
+    text-align: center;
+    height: 120px;
+  }
+  nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+    top: 0;
+    height: 140px;
+    z-index: 5;
+  }
+  .nav-text {
+    display: flex;
+    background-color: rgb(23, 21, 68);
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: white;
+  }
+  .nav-button {
+    height: 35px;
+    margin: 3px;
+    transform: skewX(-12deg); 
+    background-color: #1bb76e;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 1.5em;
+  }
+  .nav-button:hover {
+    background-color: #13d454;
+  }
+  
+  .nav-text > h2 {
+    font-family: 'Playfair Display SC', serif;
+  }
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 21, 68);
+    width: 60%;
+    flex: nowrap;
+  }
+  .top-image {
+    position: absolute;
+    top: 140px;
+    height: 300px;
+    width: 100%;
+    background-color: #464b57;
+    background-image:        url("https://images.unsplash.com/photo-1430232324554-8f4aebd06683?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .top-image img {
+    max-width: 100%;
+    height: auto;  
+  }.space {
+    height: 120px;
+  }
+  article {
+    position: relative;
+    top: 430px;
+    min-height: 900px;
+    background-color: #eee;
+  }
+  .img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    position: relative;
+    top: 1350px;
+    height: 120px;
+    background-color: rgb(23, 21, 68);
+    text-align: center;
+    color: white;
+  }
