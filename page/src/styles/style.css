@@ -1,6 +1,12 @@
 /* Add your styles here */
 body {
     border: 0; 
+    background-color: #eee;
+}
+p {
+  line-height: 2em;
+  font-family: 'Gotu', sans-serif;
+  font-weight: 500;
 }
 h1 {
     text-align: center;
@@ -69,6 +75,8 @@ h1 {
     top: 430px;
     min-height: 900px;
     background-color: #eee;
+    padding-left: 25px;
+    padding-right: 10px;
   }
   .img-div {
     display: block;
@@ -76,10 +84,62 @@ h1 {
     margin-right: auto;
   }
   footer {
-    position: relative;
-    top: 1350px;
+    position: absolute;
+    top: 2900px;
     height: 120px;
     background-color: rgb(23, 21, 68);
     text-align: center;
     color: white;
+    padding-bottom: 25px;
+  }
+  blockquote {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+  }
+  .sub-heading {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 25px;
+  }
+  .list-div {
+    margin-top: 50px;
+    height: 170px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(23, 21, 68);
+    border-radius: 5px;
+    box-shadow: 0 4px 80px;
+  }
+  #teams-managed {
+    margin-left: 350px;
+    padding-top: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  ul h4 {
+    font-family: 'Playfair Display SC', serif;;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .hounor-div {
+    height: 300px;
+    border: 5px solid rgb(23, 21, 68);
+    transform: skew(-3deg);
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hounor-list {
+    transform: skew(3deg);
+    list-style: none;
+    font-size: 1.2em;
+  }
+  #image {
+    height: auto;
+    width: 100%;
   }
